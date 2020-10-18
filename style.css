@@ -1,4 +1,4 @@
-body {background-color:rgba(76, 0, 130, 0.719)}
+body {background-image:url(arvore.jpg);background-color: deepskyblue;height: 100px;background-position: top;background-repeat:repeat;}
 
 #borda1 {
   width:10px;
