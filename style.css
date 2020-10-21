@@ -1,4 +1,18 @@
-body {background-image:url(arvore.jpg);background-color: deepskyblue;height: 100px;background-position: top;background-repeat:repeat;}
+body {
+  background-image:url(mandioca.JPG);
+  background-color: saddlebrown ;
+  height: 100px;
+  background-position: unset ;
+  background-repeat:no-repeat;
+}
+h1, h2, h3, h4, h5 {
+  background-color: #d8baba9f;
+}
+
+}
+h1, h2, h3, h4, h5 {
+  color: #f6f8e1f8;
+}
 
 #borda1 {
   width:10px;
