@@ -5,15 +5,24 @@ body {
   background-position: unset ;
   background-repeat:no-repeat;
 }
-h1, h2, h3, h4, h5 {
+h1 {
   background-color: #d8baba9f;
 }
-
+#menu ul li {
+  display: inline-block;
 }
-h1, h2, h3, h4, h5 {
-  color: #f6f8e1f8;
+a:hover {
+  font-family: monospace;
+  background-color: brown;
+  text-decoration: underline;
 }
-
+a:active{
+ color: green;
+}
+a:visited {
+  color:white;
+  background-color: brown;
+}
 #borda1 {
   width:10px;
   height:20px;
