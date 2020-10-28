@@ -1,15 +1,50 @@
 body {
   background-image:url(mandioca.JPG);
   background-color: saddlebrown ;
-  height: 100px;
   background-position: unset ;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
 }
 h1 {
+  position: relative;
   background-color: #d8baba9f;
+  padding: 10px;
+  margin: 10px;
 }
-#menu ul li {
+#imagemtopo {
+  position: relative;
+  width:600px;
+  height:auto;
+  padding: 10px;
+}
+#menu {
+  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 10px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+  margin: 10px;
+    margin-right: 610px;
+    margin-bottom: 80px;
+  background-color: black;
+}
+#menu ul {
   display: inline-block;
+  margin: 0mm;
+  padding: 0mm;
+  list-style: none;
+  background-color: rgb(241, 241, 229);
+}
+#menu li {
+  display: inline;
+  float: left;
+  width: 5em;
+}
+#menu li a{
+  text-decoration: none;
+  color: rgb(218, 203, 203);
+  display: block;
+  font-size: 18px;
 }
 a:hover {
   font-family: monospace;
@@ -19,9 +54,12 @@ a:hover {
 a:active{
  color: green;
 }
-a:visited {
-  color:white;
+a.mandioca:visited {
+  color:red;
   background-color: brown;
+}
+#mandioca {
+  padding: 5px;
 }
 #borda1 {
   width:10px;
