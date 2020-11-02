@@ -1,1 +1,2 @@
 [1026/230215.915:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1102/175614.315:ERROR:file_io.cc(135)] WriteFile: O pipe está sendo fechado. (0xE8)

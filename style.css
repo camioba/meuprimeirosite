@@ -55,6 +55,8 @@ h1 {
   color: rgb(218, 203, 203);
   display: table;
   font-size: 18px;
+  margin-left: 20px;
+  width: 10px;
 }
 a:hover {
   font-family: monospace;
@@ -67,4 +69,36 @@ a:active{
 #borda1 {
   width:10px;
   height:20px;
-  box-shadow:5px 10px red;}
+  box-shadow:5px 10px red;
+}
+#menufim {
+  position: block;
+  position: sticky;
+  padding: 10px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+  margin: 10px;
+  margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 80px;
+  background-color: rgba(100, 50, 50, 0.616);
+}
+#menufim ul {
+  display: block;
+  margin: 0mm;
+  padding: 0mm;
+  list-style: none;
+  background-color: rgb(241, 241, 229);
+}
+#menufim li {
+  display: block;
+  float: left;
+  margin-left: 50px;
+  width: 5em;
+}
+#menufim li a{
+  text-decoration: none;
+  color: rgb(218, 203, 203);
+  display: table;
+  font-size: 18px;
+}
